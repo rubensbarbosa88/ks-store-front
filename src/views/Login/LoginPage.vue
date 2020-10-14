@@ -37,7 +37,8 @@
               height="45"
               min-width="150"
               color="grey darken-4"
-              class="rounded mt-12">
+              class="rounded mt-12"
+              :to="{name: 'Home'}">
               <span class="white--text">Login</span>
             </v-btn>
           </v-form>
